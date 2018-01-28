@@ -201,12 +201,12 @@ word-break:break-all;word-wrap:break-word;">
 		<div class="col-md-3 col-sm-3" >
 			<address>
 				<strong><small>地址</small></strong><Br/>
-				<small>孝义市梧桐新区西区教师公寓楼</small>
+				<small>孝义市梧桐新区西区</small>
 			</address>
 		</div>
 		<div class="col-md-3 col-sm-3" >
 			<div><strong><small>联系</small></strong></div>
-			<div><small>手机：<?php echo SITE_TEL;?></small></div>
+			<div><small>手机/微信：<?php echo SITE_TEL;?></small></div>
 			<div><small>qq：<?php echo SITE_QQ;?></small><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo SITE_QQ;?>&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:<?php echo SITE_QQ;?>:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></div>
 		</div>
 
