@@ -190,13 +190,11 @@ word-break:break-all;word-wrap:break-word;">
 
   <div class="container" style="color:#424242;padding:10px 8px">
 		<div class="col-md-3 col-sm-3" >
-			<address>
 				<strong><small>运营方</small></strong><Br/>
 				<small>凤凰鸣工作室</small>
                 &nbsp;<a href="/site.php"><small>概况</small></a>
                 &nbsp;<a href="/contact.php"><small>联系本站</small></a>
                 <br/><small>晋ICP备18000834号</small>
-            </address>
 		</div>
 		<div class="col-md-3 col-sm-3" >
 			<address>
