@@ -39,7 +39,7 @@ ul>li{background-color:#fff;margin:10px}
                     </div>
                     <div class="panel-body" >
                         <p class="lead" style="color:#fff;font-size:18px;">
-                        &#12288;&#12288;本站致力于胜溪湖畔信息汇集和信息推送，未来将持续推出更多的类型。预计本年度将实现“个人设定接收类型信息”，并推送到手机和邮箱。
+                        &#12288;&#12288;本站致力于孝义市胜溪湖畔信息汇集和信息推送，未来将持续推出更多的类型。预计本年度将实现“个人设定接收类型信息”，并推送到手机和邮箱。
                         </p>
                     </div>
                     
@@ -199,7 +199,7 @@ word-break:break-all;word-wrap:break-word;">
 		<div class="col-md-3 col-sm-3" >
 			<address>
 				<strong><small>地址</small></strong><Br/>
-				<small>孝义市梧桐新区西区</small>
+				<small>孝义市梧桐新区西区教师公寓楼</small>
 			</address>
 		</div>
 		<div class="col-md-3 col-sm-3" >
