@@ -13,8 +13,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="renderer" content="webkit">
-        <meta name="keywords" content="胜溪汇 胜溪湖 孝义">
-        <meta name="description" content="胜溪汇 胜溪湖 孝义">
+        <meta name="keywords" content="胜溪汇 胜溪湖 孝义房产 孝义微信 孝义培训">
+        <meta name="description" content="胜溪汇 胜溪湖 孝义房产 孝义微信 孝义培训">
 		<title>胜溪汇</title>
 		<link rel="stylesheet" href="../css/bootstrap.min.css" />
 		<link rel="stylesheet" href="../css/zhangwq.css" />
@@ -203,7 +203,10 @@
 
 			</div>
 		</nav>
-        
+        <?php  
+            $refer = isset($_REQUEST['refer']) ? $_REQUEST['refer'] : '';
+            $msg = isset($_REQUEST['msg']) ? $_REQUEST['msg'] : '';
+        ?>
         <?php require_once dirname(__FILE__) . '/top_mobile.php';?>
 <?php } ?>
 
