@@ -21,8 +21,9 @@
 
 	<div class="col-md-4 " <?php if(!isMobile()){ ?>style="border:2px ;padding-bottom:40px; background-color:#fff"<?php } ?>>
 		<div class="<?php if(!isMobile()){ ?>zhdl<?php }else{ ?>zhdl_mobile<?php } ?>">帐号登录</div>
-		<?php if($msg=="001"){echo "<div>系统没有该用户名,请注册</div>";} ?>	
-		<?php if($msg=="002"){echo "<div class='text-right' style='text-color:red'>密码错误</div>";} ?>		
+		<?php if($msg=="001"){echo "<div  sytle='color:red'>&nbsp;系统没有该用户名,请注册</div>";} ?>	
+		<?php if($msg=="002"){echo "<div  style='color:red'>&nbsp;密码错误</div>";} ?>		
+
         <form role="form"  action="/loginSubmit.php" method="POST">  
 		  <input type="hidden" name="refer" value="<?php echo $refer;?>" />
 		<div class="form-group">
