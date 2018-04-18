@@ -7,8 +7,8 @@ ul>li{background-color:#fff;margin:10px}
 
 .nav>li>a:hover, .nav>li>a:focus{
     color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
 }
 
 </style>
