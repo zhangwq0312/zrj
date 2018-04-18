@@ -1,5 +1,9 @@
 /*#314a7e*/
-
+.btn-success {
+    color: #4cae4c;
+    background-color: #fff;
+    border-color: #4cae4c;
+}
 .button_m{margin:4px;}
 .login-text {
     width: 100%;
