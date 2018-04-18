@@ -23,6 +23,7 @@
 .tel{color:red;font-size:24px;font-family: Times, serif;}
 .red_star{color:#FD634F;margin-right:5px;font-size:18px;}
 .panel-default>.panel-heading {
+    padding: 5px 15px;
 	color:#365899;
     background-color: #eee; /*#cfdcf6  #afbcff #F5A537*/
     border-color: #ddd;
@@ -30,7 +31,7 @@
 	font-size:14px;
 }
 .panel-heading-blue{
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-bottom: 1px solid transparent;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
@@ -41,7 +42,7 @@
 }
 
 .panel-heading-orange {
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-bottom: 1px solid transparent;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;
@@ -53,7 +54,7 @@
 }
 
 .panel-heading-green{
-    padding: 10px 15px;
+    padding: 5px 15px;
     border-bottom: 1px solid transparent;
     border-top-right-radius: 3px;
     border-top-left-radius: 3px;

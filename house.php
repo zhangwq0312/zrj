@@ -295,7 +295,7 @@ function page(i){
 					$sql=$sql." and TIMESTAMPDIFF(day,build_time,now())<=".$day_limit;
 				}
 				
-				$sql = $sql." order by source desc ,build_time desc) a limit ".$db_limit_start.",".$db_limit_offset;
+				$sql = $sql." order by build_time desc) a limit ".$db_limit_start.",".$db_limit_offset;
 				//var_dump($sql);
 				$result = mysqli_query($conn,$sql);	
 			?>

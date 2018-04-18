@@ -1,4 +1,4 @@
-<?php $locate="cont";?>
+﻿<?php $locate="cont";?>
 <?php require dirname(__FILE__) . '/include/header_checkSession.php';?>
 <?php if(empty($_SESSION['tel'])||isNotAdmin($_SESSION['tel'])){ return;}   ?>
 <?php require dirname(__FILE__) . '/include/db.php';?>
