@@ -52,12 +52,13 @@ $refer = isset($_REQUEST['refer']) ? $_REQUEST['refer'] : '';
 
 		<!-- Latest compiled and minified Locales -->
 		<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
-
-
+        <style>
+            body { padding-top: 70px; }
+        </style> 
 	</head>
-	
+
 	<body> 
-		<nav class="nav navbar-inverse navbar-static-top"  role="navigation" >
+		<nav class="nav navbar-inverse navbar-fixed-top"  role="navigation" >
 		<div class="container-fluid">
 					<div class="navbar-header" style="margin-right: 60px;">
                     <?php if(!isMobile()){?>
