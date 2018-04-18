@@ -103,7 +103,7 @@
 
 					<div class="form-group text-center">
 						<div class="col-md-11 text-right">
-							<input type="button" id="save_txt" name="save_txt"  class="btn btn-info" value="保存基本信息"></input>
+							<input type="button" id="save_txt" name="save_txt"  class="btn btn-info btn-sm" value="保存基本信息"></input>
 							&nbsp;<a target="_blank" class="btn btn-default btn-sm" title="预览" href="/company.php?id=<?php echo $id; ?>">预览</a>
 						</div>
 					</div>
@@ -178,7 +178,7 @@
 				  
 					<div class="form-group text-center">
 						<div class="col-md-11 text-right">
-							<input type="button" id="save_zhaopin" name="save_zhaopin"  class="btn btn-info" value="发布新的招聘信息"></input>
+							<input type="button" id="save_zhaopin" name="save_zhaopin"  class="btn btn-info btn-sm" value="发布新的招聘信息"></input>
 							&nbsp;<a target="_blank" class="btn btn-default btn-sm" title="预览" href="/company.php?id=<?php echo $id; ?>">预览</a>
 						</div>
 					</div>
@@ -223,7 +223,7 @@
 					
 					<div class="form-group text-center">
 						<div class="col-md-11 text-right">
-							<input type="button" id="save_youhui" name="save_youhui"  class="btn btn-info" value="保存优惠活动"></input>
+							<input type="button" id="save_youhui" name="save_youhui"  class="btn btn-info btn-sm" value="保存优惠活动"></input>
 							&nbsp;<a target="_blank" class="btn btn-default btn-sm" title="预览" href="/company.php?id=<?php echo $id; ?>">预览</a>
 						</div>
 					</div>
@@ -331,7 +331,7 @@
 					
 					<div class="form-group text-center">
 						<div class="col-md-11 text-right">
-							<input type="submit" id="save_img" name="save_img"  class="btn btn-info" value="保存图片信息"></input>
+							<input type="submit" id="save_img" name="save_img"  class="btn btn-info btn-sm" value="保存图片信息"></input>
 							&nbsp;<a target="_blank" class="btn btn-default btn-sm" title="预览" href="/company.php?id=<?php echo $id; ?>">预览</a>
 						</div>
 					</div>
