@@ -144,7 +144,10 @@
 				<p>您希望获得来自顾客的评价？</p>
 				<p>请您将手机号码、经营类型、商家名称、店面照提供给客服，即可<b>自行管理您的商家信息</b>。</p>
 				<p><small><a target="_blank" href="/contView.php?type=my&id=6">点击此处了解更多</a></small></p>
-				<?php if(!empty($_SESSION['tel'])&&isAdmin($_SESSION['tel'])){?><a target="_blank" id="new_business" class="btn btn-success btn-lg">客服发布</a>
+				<?php if(!empty($_SESSION['tel'])&&isAdmin($_SESSION['tel'])){?>
+                <div class="text-right">
+                    <a target="_blank" id="new_business" class="btn btn-success btn-lg">客服发布</a>
+                </div>
 				<?php }else{ ?>
 					<a target="_blank" class="btn btn-success " href="/contact.php?leixing=1">我要申请商家管理平台</a>
 				<?php } ?>

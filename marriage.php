@@ -147,7 +147,11 @@ function search(){
 			<div class="panel-body">
 				<p>为保证婚恋交友的安全性和严肃性，需要您联系客服来登记您的交友信息。如果您能够将您的个人相片，以及身份证复印件托管在本站，您将会得到重点推荐和更多的机会哦！</p>
 				<p><small><a target="_blank" href="/contView.php?type=my&id=6">点击此处了解更多</a></small></p>
-				<?php if(!empty($_SESSION['tel'])&&isAdmin($_SESSION['tel'])){?><a target="_blank" id="new_marriage" class="btn btn-success btn-lg">客服发布</a><?php }   ?>
+				<?php if(!empty($_SESSION['tel'])&&isAdmin($_SESSION['tel'])){?>
+                <div class="text-right">
+                    <a target="_blank" id="new_marriage" class="btn btn-success ">客服发布</a>
+                </div>
+                <?php }   ?>
 			</div>
 		</div>
         <?php } ?> 

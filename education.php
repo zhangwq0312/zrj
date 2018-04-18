@@ -118,8 +118,8 @@ function page(i){
 			<div class="panel-body">
 				<p>&#12288;&#12288;孩子的健康成长，是父母们的共同希望。</p>
                 <p>&#12288;&#12288;孩子不输在起跑线上，是父母们应尽的责任。</p>
-				<a target="_blank" id="new_education" class="btn btn-success btn-lg">免费发布</a>
-			</div>
+                <div class="text-right"><a target="_blank" id="new_education" class="btn btn-success">免费发布</a></div>
+            </div>
 		</div>
         <?php } ?> 
         

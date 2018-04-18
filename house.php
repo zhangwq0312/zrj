@@ -329,7 +329,7 @@ function page(i){
 				<p>“<span style="color:#428bca">蓝色</span>”标题的数据属于本站。</p>
 				<p>“<span style="color:#ff6700">橙色</span>”标题的数据属于“58同城”，本站不收录联系方式。请"<span style="color:#ff6700">点击标题</span>"，进入“58同城”查看。</p>
 				<p>本站数据排在前面。</p>
-				<a target="_blank" id="new_house" class="btn btn-success btn-lg">免费发布</a>
+                <div class="text-right"><a target="_blank" id="new_house" class="btn btn-success">免费发布</a></div>
 			</div>
 		</div>
         <?php } ?> 

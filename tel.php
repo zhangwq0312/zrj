@@ -120,8 +120,10 @@ function page(i){
 				<p>您拥有专业装潢团队？</p>
 				<p>您有二手物品出售？</p>
 				<p>请免费发布您的信息。</p>
-				<a target="_blank" id="new_tel" class="btn btn-success btn-lg">免费发布</a>
-			</div>
+                <div class="text-right">
+                    <a target="_blank" id="new_tel" class="btn btn-success">免费发布</a>
+                </div>
+            </div>
 		</div>
         <?php } ?> 
         

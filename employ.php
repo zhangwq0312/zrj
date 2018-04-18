@@ -187,8 +187,10 @@ function search(){
 				<p>此处发布招聘信息</p>
 				<p>为保证您发布的帖子能停留在靠前的位置，请定期使用手机号登录系统，做<b>刷新</b>操作</p>
                 <p>目前不支持求职信息的发布。</p>
-                <a target="_blank" id="new_employ" class="btn btn-success btn-lg">免费发布</a>
-			</div>
+                <div class="text-right">
+                    <a target="_blank" id="new_employ" class="btn btn-success ">免费发布</a>
+                </div>
+            </div>
 		</div>
         <?php } ?> 
         
