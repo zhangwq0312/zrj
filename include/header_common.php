@@ -60,7 +60,7 @@
         }
     }?>
 <?php if(!isMobile()){?>
-		<nav class="nav navbar-inverse navbar-static-top"   role="navigation" >
+		<nav class="nav navbar-inverse navbar-fixed-top"   role="navigation" >
 			<div class="container-fluid">	
 				<div class="navbar-header" style="margin-right: 60px;">
 					<a href="#" class="navbar-brand">
