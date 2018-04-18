@@ -106,4 +106,3 @@ $refer = isset($_REQUEST['refer']) ? $_REQUEST['refer'] : '';
    	  	</div>
 		</nav>
         
-        <div style="height: 20px;"></div>

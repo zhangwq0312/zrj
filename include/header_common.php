@@ -20,7 +20,6 @@
 		<link rel="stylesheet" href="../css/zhangwq.css" />
         <?php if(!isMobile()){?>
             <style>
-                body { padding-top: 50px; }
             </style> 
         <?php } ?>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -174,7 +173,6 @@
 		</nav>
         
                 
-        <div style="height: 20px;"></div>
 <?php } ?>
 
 <?php if(isMobile()){?>
