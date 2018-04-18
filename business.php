@@ -146,7 +146,7 @@
 				<p><small><a target="_blank" href="/contView.php?type=my&id=6">点击此处了解更多</a></small></p>
 				<?php if(!empty($_SESSION['tel'])&&isAdmin($_SESSION['tel'])){?>
                 <div class="text-right">
-                    <a target="_blank" id="new_business" class="btn btn-success btn-lg">客服发布</a>
+                    <a target="_blank" id="new_business" class="btn btn-success">客服发布</a>
                 </div>
 				<?php }else{ ?>
 					<a target="_blank" class="btn btn-success " href="/contact.php?leixing=1">我要申请商家管理平台</a>
