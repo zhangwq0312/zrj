@@ -18,11 +18,9 @@
 		<title>胜溪汇</title>
 		<link rel="stylesheet" href="../css/bootstrap.min.css" />
 		<link rel="stylesheet" href="../css/zhangwq.css" />
-<?php if(isMobile()){?>
 <style>
-    body { padding-top: 70px; }
+    body { padding-top: 50px; }
 </style> 
-<?php } ?>
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
