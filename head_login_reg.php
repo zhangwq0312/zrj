@@ -43,7 +43,7 @@
     }
     .logo_img {
             position: absolute;
-            top: 60%;
+            top: 55%;
             left: 40%;
             margin-top: -36px; /* 高度的一半 */
             margin-left: -100px; /* 宽度的一半 */
