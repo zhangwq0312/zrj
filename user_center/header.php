@@ -57,7 +57,7 @@ $refer = isset($_REQUEST['refer']) ? $_REQUEST['refer'] : '';
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
     text-decoration: none;
     color: #fff;
-    background-color: #2e6da4;
+    background-color: #9CAAC7;
 }
         </style> 
 	</head>
@@ -94,9 +94,9 @@ $refer = isset($_REQUEST['refer']) ? $_REQUEST['refer'] : '';
                        <ul class="nav navbar-nav navbar-left " >
                             <li class="dropdown">
                               <a href="#" class="dropdown-toggle" style="font-size:12px;color:#D2D2D2;padding: 17px 5px 9px 30px;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">跳转到主站 <span class="caret"></span></a>
-                              <ul class="dropdown-menu" style="background-color: rgba(255,255,255,0.9); min-width: 110px; ">
+                              <ul class="dropdown-menu" style="padding-top:0px;background-color: rgba(255,255,255,0.9); min-width: 110px; font-size:10px">
                                 <li><a href="/house.php">住房</a></li>
-                                <li style="float:left;"><a href="/education.php" >教育</a></li>
+                                <li><a href="/education.php" >教育</a></li>
                                 <li><a href="/marriage.php">婚恋</a></li>	
                                 <li><a href="/employ.php">招聘</a></li>
                                 <li><a href="/coupon.php">促销</a></li>

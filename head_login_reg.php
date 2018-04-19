@@ -37,7 +37,7 @@
     body{ background-color:#fff}
     .h_logo {
         width: 200px;
-        height: 98px;
+        height: 78px;
         position: relative;
         margin-left:120px;
     }
@@ -66,10 +66,14 @@ $msg = isset($_REQUEST['msg']) ? $_REQUEST['msg'] : '';
 ?>
 
 <?php if(!isMobile()){ ?>
-	<div class="h_logo">
+<div>
+	<div class="h_logo" >
     
 		<a href="/">
 			<img class="logo_img" src="img/login_top.png">
 		</a>
+
 	</div>
+	<div class="text-right" style="font-size:12px;color:red">注意：本站尚未运营。</div>
+</div>
 <?php } ?>
