@@ -161,7 +161,7 @@
                                     while($row = mysqli_fetch_assoc($result)){
                                     ?>
                                     <tr><td style="padding: 5px 3px 5px 15px;">
-                                            <div><a href="company.php?id=<?php echo $row['id'];?>" target="_blank"><?php echo $row['short_name'];?>&nbsp;:&nbsp;<?php echo $row['title']; ?></a></div>
+                                            <div><a href="company.php?id=<?php echo $row['id'];?>" target="_blank"><small><?php echo $row['short_name'];?>&nbsp;:&nbsp;<?php echo $row['title']; ?></small></a></div>
                                             <div class="text-right" style="color:#999"><small>起：<?php echo substr($row["born_day_begin"],0,10);?>&#12288;止：<?php echo substr($row["born_day_end"],0,10);?></small></div>
                                     </td></tr>
                                 <?php }?>
