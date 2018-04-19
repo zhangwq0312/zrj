@@ -74,11 +74,11 @@ $(document).ready(function(){
 	});
 	
 	$("[id^='c_']").click(function(){
-			//$("[id^='c_']").removeClass("btn-primary btn-default").addClass("btn-default");   
+			//$("[id^='c_']").removeClass("btn-info btn-default").addClass("btn-default");   
 			
 			//if($(this).attr("id")!="c_0"){
 				//$(this).removeClass("btn-default");
-				//$(this).addClass("btn-primary");
+				//$(this).addClass("btn-info");
 			//}
 			
 			if($(this).attr("id")=="c_0"){
@@ -164,8 +164,8 @@ function page(i){
 						<td style="width:70px;text-align:right;">类型：</td>
 						<td>
 							<button type="button" id="a_0" class="btn btn-default  btn-sm button_m" >全部</button>
-							<button type="button" id="a_1" class="btn <?php if($leixing == "chushou"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m" >出售</button>
-							<button type="button" id="a_2" class="btn <?php if($leixing == "chuzu"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m">出租</button>
+							<button type="button" id="a_1" class="btn <?php if($leixing == "chushou"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m" >出售</button>
+							<button type="button" id="a_2" class="btn <?php if($leixing == "chuzu"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m">出租</button>
 						</td>
 					</tr>
 					<tr>
@@ -180,7 +180,7 @@ function page(i){
 								<?php			
 									while($row = mysqli_fetch_assoc($result)){
 								?>
-									<button type="button" id="d_<?php echo $row['code']?>" class="btn <?php  if(strpos($region,$row['code'].'_')!== false){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m"><?php echo $row['name']?></button>
+									<button type="button" id="d_<?php echo $row['code']?>" class="btn <?php  if(strpos($region,$row['code'].'_')!== false){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m"><?php echo $row['name']?></button>
 								<?php
 									}	
 								?>	
@@ -191,18 +191,18 @@ function page(i){
 						<td style="width:70px;text-align:right;">时间：</td>
 						<td>
 							<button type="button" id="e_0" class="btn btn-default  btn-sm button_m" >全部</button>
-							<button type="button" id="e_1" class="btn <?php if($after_day == "1"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m" >一周内发布</button>
-							<button type="button" id="e_2" class="btn <?php if($after_day == "2"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m">一月内发布</button>
+							<button type="button" id="e_1" class="btn <?php if($after_day == "1"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m" >一周内发布</button>
+							<button type="button" id="e_2" class="btn <?php if($after_day == "2"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m">一月内发布</button>
 						</td>
 					</tr>
 					<tr id="chushou" style="<?php if($leixing != "chushou"){echo "display:none;";}?>" >
 						<td style="text-align:right;">价格：</td>
 						<td>
 							<button type="button" id="b_0" class="btn btn-default  btn-sm button_m">全部</button>
-							<button type="button" id="b_1" class="btn <?php if($jiage == "_15"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m">15万以内</button>
-							<button type="button" id="b_2" class="btn <?php if($jiage == "15_20"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m">15万-20万</button>
-							<button type="button" id="b_3" class="btn <?php if($jiage == "20_30"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m">20万-30万</button>
-							<button type="button" id="b_4" class="btn <?php if($jiage == "30_"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m">30万以上</button>
+							<button type="button" id="b_1" class="btn <?php if($jiage == "_15"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m">15万以内</button>
+							<button type="button" id="b_2" class="btn <?php if($jiage == "15_20"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m">15万-20万</button>
+							<button type="button" id="b_3" class="btn <?php if($jiage == "20_30"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m">20万-30万</button>
+							<button type="button" id="b_4" class="btn <?php if($jiage == "30_"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m">30万以上</button>
 						
 						</td>
 					</tr>
@@ -210,9 +210,9 @@ function page(i){
 						<td style="text-align:right;">价格：</td>
 						<td>
 							<button type="button" id="c_0" class="btn btn-default  btn-sm button_m">全部</button>
-							<button type="button" id="c_1" class="btn <?php if($jiage == "_500"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m">月租500元以内</button>
-							<button type="button" id="c_2" class="btn <?php if($jiage == "500_1000"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m">月租500-1000元</button>
-							<button type="button" id="c_3" class="btn <?php if($jiage == "1000_"){echo "btn-primary";}else{echo "btn-default";}?>  btn-sm button_m">月租1000以上</button>
+							<button type="button" id="c_1" class="btn <?php if($jiage == "_500"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m">月租500元以内</button>
+							<button type="button" id="c_2" class="btn <?php if($jiage == "500_1000"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m">月租500-1000元</button>
+							<button type="button" id="c_3" class="btn <?php if($jiage == "1000_"){echo "btn-info";}else{echo "btn-default";}?>  btn-sm button_m">月租1000以上</button>
 						</td>
 					</tr>
 					</table>

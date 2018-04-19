@@ -20,13 +20,13 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	<?php  if(!empty($leixing)){?>
-		$("[id='a_<?php echo $leixing;?>']").addClass("btn-primary");
+		$("[id='a_<?php echo $leixing;?>']").addClass("btn-info");
 	<?php }?>
 	<?php  if(!empty($sex)){?>
-		$("[id='b_<?php echo $sex;?>']").addClass("btn-primary");
+		$("[id='b_<?php echo $sex;?>']").addClass("btn-info");
 	<?php }?>
 	<?php  if(!empty($yuexin)){?>
-		$("[id='c_<?php echo $yuexin;?>']").addClass("btn-primary");
+		$("[id='c_<?php echo $yuexin;?>']").addClass("btn-info");
 	<?php }?>
 	
 	$("[id^='a_']").click(function(){

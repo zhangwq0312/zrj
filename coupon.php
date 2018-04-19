@@ -174,7 +174,7 @@
 <script type="text/javascript">
 $(document).ready(function(){
 
-    $("[id='b_<?php echo $status;?>']").addClass("btn-primary");
+    $("[id='b_<?php echo $status;?>']").addClass("btn-info");
 	$("[id^='b_']").click(function(){
 		var id = $(this).attr("id");
 		var value =id.substr(2);

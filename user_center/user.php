@@ -92,7 +92,7 @@
                     <div class="col-md-3">
                     </div>
 					<div class="col-md-8">
-						<input type="button" id="save" class="btn btn-success btn-lg" value="保存个人信息"></input>
+						<input type="button" id="save" class="btn btn-success" value="保存个人信息"></input>
 						<span id='savemsg' style='color:red'>&#12288;&#12288;&#12288;&#12288;&#12288;</span>
 					</div>
 				</div>

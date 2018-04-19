@@ -14,10 +14,10 @@
 $(document).ready(function(){
 
 	<?php  if(!empty($sex)){?>
-		$("[id='b_<?php echo $sex;?>']").addClass("btn-primary");
+		$("[id='b_<?php echo $sex;?>']").addClass("btn-info");
 	<?php }?>
 	<?php  if(!empty($photo)){?>
-		$("[id='a_<?php echo $photo;?>']").addClass("btn-primary");
+		$("[id='a_<?php echo $photo;?>']").addClass("btn-info");
 	<?php }?>
 	
 	$("[id^='b_']").click(function(){

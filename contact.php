@@ -1,5 +1,5 @@
 <?php $locate="contact";?>
-<?php require dirname(__FILE__) . '/include/header.php';?>
+<?php require dirname(__FILE__) . '/user_center/header.php';?>
 <?php require dirname(__FILE__) . '/include/db.php';?>
 <?php 	
     $leixing = empty($_REQUEST['leixing'])|| !is_numeric($_REQUEST['leixing'])?'':$_REQUEST['leixing'];

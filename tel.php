@@ -11,7 +11,7 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	<?php  if(!empty($leixing)){?>
-		$("[id='a_<?php echo $leixing;?>']").addClass("btn-primary");
+		$("[id='a_<?php echo $leixing;?>']").addClass("btn-info");
 	<?php }?>
 		
 	$("[id^='a_']").click(function(){

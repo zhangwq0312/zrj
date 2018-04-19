@@ -147,7 +147,7 @@ word-break:break-all;word-wrap:break-word;">
                 <div  >
                         <a class="btn btn-info btn-sm btn-block " href="/house.php"  style="text-align:left" role="button">&nbsp;搜索住房信息</a>
                         <a class="btn btn-info btn-sm btn-block " href="/user_center/index.php"  style="text-align:left" role="button">&nbsp;前往个人中心</a>
-                        <a class="btn btn-warning btn-sm btn-block " href="/contact.php" style="text-align:left"  role="button">&nbsp;给本站留言</a>
+                        <a class="btn btn-danger btn-sm btn-block " href="/contact.php" style="text-align:left"  role="button">&nbsp;给本站留言</a>
                 </div>
             <?php }else{ ?>
                 <form role="form"  action="/loginSubmit.php" method="POST">  

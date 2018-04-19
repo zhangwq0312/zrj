@@ -37,7 +37,7 @@
 				<div class="form-group">
                     <div class="col-md-3"></div>
 					<div class="col-md-8">
-						<input type="button" id="save" class="btn btn-success btn-lg" value="修改为新密码"></input>
+						<input type="button" id="save" class="btn btn-success" value="修改为新密码"></input>
 						<span id='savemsg' style='color:red'>&#12288;&#12288;&#12288;&#12288;&#12288;</span>
 					</div>
 				</div>

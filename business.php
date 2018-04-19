@@ -175,13 +175,13 @@
 <script type="text/javascript">
 $(document).ready(function(){
 	<?php  if(!empty($leixing)){?>
-		$("[id='a_<?php echo $leixing;?>']").addClass("btn-primary");
+		$("[id='a_<?php echo $leixing;?>']").addClass("btn-info");
 	<?php }?>
 	<?php  if(!empty($wuliu)){?>
-		$("[id='b_1']").addClass("btn-primary");
+		$("[id='b_1']").addClass("btn-info");
 	<?php }?>
 	<?php  if(!empty($weixin_talk)){?>
-		$("[id='c_1']").addClass("btn-primary");
+		$("[id='c_1']").addClass("btn-info");
 	<?php }?>
 	$("[id^='a_']").click(function(){
 		var id = $(this).attr("id");

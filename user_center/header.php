@@ -54,6 +54,11 @@ $refer = isset($_REQUEST['refer']) ? $_REQUEST['refer'] : '';
 		<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
         <style>
             body { padding-top: 70px; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2e6da4;
+}
         </style> 
 	</head>
 
@@ -73,7 +78,7 @@ $refer = isset($_REQUEST['refer']) ? $_REQUEST['refer'] : '';
                         
                         <a  href="index.php"  class="navbar-brand" style="padding: 13px 8px;">
                             <span class="glyphicon glyphicon-cog" style="font-size:14px;color:#D2D2D2;"></span>
-                            <span style="font-size:16px;color:#D2D2D2;">个人中心</span>
+                            <span style="font-size:12px;color:#D2D2D2;">个人中心</span>
                         </a>	
                         
                         <a href="../loginout.php?from="  class="navbar-brand" style="padding: 13px 8px;">
@@ -86,12 +91,12 @@ $refer = isset($_REQUEST['refer']) ? $_REQUEST['refer'] : '';
                     
 					<div class="collapse navbar-collapse">   
                     
-                       <ul class="nav navbar-nav navbar-right" >
+                       <ul class="nav navbar-nav navbar-left " >
                             <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" style="color:#D2D2D2;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">转到 <span class="caret"></span></a>
-                              <ul class="dropdown-menu" >
+                              <a href="#" class="dropdown-toggle" style="font-size:12px;color:#D2D2D2;padding: 17px 5px 9px 30px;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">跳转到主站 <span class="caret"></span></a>
+                              <ul class="dropdown-menu" style="background-color: rgba(255,255,255,0.9); min-width: 110px; ">
                                 <li><a href="/house.php">住房</a></li>
-                                <li><a href="/education.php" >教育</a></li>
+                                <li style="float:left;"><a href="/education.php" >教育</a></li>
                                 <li><a href="/marriage.php">婚恋</a></li>	
                                 <li><a href="/employ.php">招聘</a></li>
                                 <li><a href="/coupon.php">促销</a></li>
